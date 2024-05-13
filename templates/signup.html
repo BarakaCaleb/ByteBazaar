@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../static/files/css/signup.css">
+
+<!--    <link rel="stylesheet" href="../static/files/css/bootstrap.css">-->
+    <script src="../static/files/js/signup.js"></script>
+    <link rel="nofollow" href="https://justpaste.it/redirect/5tul0/https%3A%2F%2Fuse.fontawesome.com%2Freleases%2Fv5.8.1%2Fcss%2Fall.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<div class="container" id="container">
+
+        <div class="form-container sign-in-container" style="margin-bottom:20px;">
+
+            <form action="/signup" method="post" style="margin-top:20px;">
+                <h1>Sign Up</h1>
+                <h4 style="colo:red;">{{message}}</h4>
+                <div class="social-container">
+                    <a href='' class="social text-primary"><i class="fa fa-facebook text-primary"></i></a>
+                    <a href='' class="social text-primary"><i class="fa fa-google"></i></a>
+                    <a href='' class="social text-primary"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+                 <input name="name" type="text" placeholder="Name" />
+                <input name="email" type="email" placeholder="Email" />
+                <input name="password" type="password" placeholder="Password" />
+                <input name="confirm" type="password" placeholder="confirm password" />
+                <a href=''>Forgot your password?</a>
+
+           <input type="submit" value="Sign up" style="background-color:red;padding:20px;">
+            </form>
+        </div>
+</div>
+
+
+</body>
+</html>
